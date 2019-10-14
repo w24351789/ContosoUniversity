@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ExpandedNodes": [
     "",
@@ -5,4 +6,12 @@
   ],
   "SelectedNode": "\\ContosoUniversity.sln",
   "PreviewInSolutionExplorer": false
+=======
+{
+  "ExpandedNodes": [
+    ""
+  ],
+  "SelectedNode": "\\ContosoUniversity.sln",
+  "PreviewInSolutionExplorer": false
+>>>>>>> master
 }
