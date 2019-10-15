@@ -72,3 +72,4 @@ C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\ne
 C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\ContosoUniversity.dll
 C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\ContosoUniversity.pdb
 C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\ContosoUniversity.csproj.CopyComplete
+C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
