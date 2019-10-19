@@ -73,3 +73,14 @@ C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\ne
 C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\ContosoUniversity.csproj.CopyComplete
 C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\TED\Desktop\dotnetcore\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\ContosoUniversity.csprojAssemblyReference.cache
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Create.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Delete.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Details.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Edit.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Index.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Instructors\Create.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Instructors\Delete.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Instructors\Details.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Instructors\Edit.cshtml.g.cs
+C:\Users\atwta\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.2\Razor\Views\Instructors\Index.cshtml.g.cs
