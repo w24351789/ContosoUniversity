@@ -36,6 +36,7 @@ namespace ContosoUniversity.Controllers
 
             var course = await _context.Courses
                 .Include(c => c.Department)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.CourseID == id);
             if (course == null)
             {
@@ -48,7 +49,7 @@ namespace ContosoUniversity.Controllers
         // GET: Courses/Create
         public IActionResult Create()
         {
-            ViewData["DepartmentID"] = new SelectList(_context.Departments, "DepartmentID", "DepartmentID");
+            PopulateDepartmentsDropDownList();
             return View();
         }
 
@@ -65,7 +66,7 @@ namespace ContosoUniversity.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DepartmentID"] = new SelectList(_context.Departments, "DepartmentID", "DepartmentID", course.DepartmentID);
+            PopulateDepartmentsDropDownList(course.DepartmentID);
             return View(course);
         }
 
@@ -82,7 +83,8 @@ namespace ContosoUniversity.Controllers
             {
                 return NotFound();
             }
-            ViewData["DepartmentID"] = new SelectList(_context.Departments, "DepartmentID", "DepartmentID", course.DepartmentID);
+            //ViewData["DepartmentID"] = new SelectList(_context.Departments, "DepartmentID", "DepartmentID", course.DepartmentID);
+            PopulateDepartmentsDropDownList(course.DepartmentID);
             return View(course);
         }
 
@@ -118,8 +120,17 @@ namespace ContosoUniversity.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DepartmentID"] = new SelectList(_context.Departments, "DepartmentID", "DepartmentID", course.DepartmentID);
+            //ViewData["DepartmentID"] = new SelectList(_context.Departments, "DepartmentID", "DepartmentID", course.DepartmentID);
+            PopulateDepartmentsDropDownList(course.DepartmentID);
             return View(course);
+        }
+        //依照名稱排序所有部門清單做成下拉選單
+        private void PopulateDepartmentsDropDownList(object selectedDepartment = null)
+        {
+            var departmentQuery = from d in _context.Departments
+                                  orderby d.Name
+                                  select d;
+            ViewBag.DepartmentID = new SelectList(departmentQuery.AsNoTracking(), "DepartmentID", "Name", selectedDepartment);
         }
 
         // GET: Courses/Delete/5
@@ -132,6 +143,7 @@ namespace ContosoUniversity.Controllers
 
             var course = await _context.Courses
                 .Include(c => c.Department)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.CourseID == id);
             if (course == null)
             {
