@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\ContosoUniversity",
-    "\\ContosoUniversity\\Models"
+    "\\ContosoUniversity\\Views",
+    "\\ContosoUniversity\\Views\\Courses"
   ],
   "SelectedNode": "\\ContosoUniversity.sln",
   "PreviewInSolutionExplorer": false
