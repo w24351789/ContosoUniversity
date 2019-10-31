@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\ContosoUniversity",
-    "\\ContosoUniversity\\Views\\Instructors"
+    "\\ContosoUniversity\\Controllers"
   ],
-  "SelectedNode": "\\ContosoUniversity\\Controllers",
+  "SelectedNode": "\\ContosoUniversity.sln",
   "PreviewInSolutionExplorer": false
 }
